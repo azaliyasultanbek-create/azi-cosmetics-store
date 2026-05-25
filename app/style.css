@@ -1632,7 +1632,7 @@ body.dark .category-card {
   }
 }
 
-/* ===== Wishlist Heart on ProductCard ===== */
+
 .wishlist-heart {
   position: absolute;
   top: 12px;
@@ -1671,7 +1671,6 @@ body.dark .wishlist-heart {
   position: relative;
 }
 
-/* ===== Wishlist Button on ProductDetail ===== */
 .product-detail-actions {
   display: flex;
   gap: 12px;
@@ -1725,7 +1724,7 @@ body.dark .wishlist-btn.active {
   color: white;
 }
 
-/* ===== Wishlist Page ===== */
+
 .wishlist-page {
   padding: 24px 0;
 }
@@ -1893,7 +1892,6 @@ body.dark .wishlist-card-title {
   transform: translateY(-1px);
 }
 
-/* ===== Wishlist Link in Header ===== */
 .wishlist-link {
   color: white;
   font-weight: 600;

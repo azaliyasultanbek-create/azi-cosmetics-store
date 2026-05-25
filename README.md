@@ -6,16 +6,16 @@ AZI Cosmetics Store is a full-featured online beauty storefront with product bro
 
 ---
 
-## 🚀 Features
+##  Features
 
-### 🛍️ Product Catalog
+###  Product Catalog
 - **Browse Products** — Grid-based catalog of beauty and cosmetic products
 - **Category Filtering** — Filter products by beauty-related categories (Skincare, Fragrances, etc.)
 - **Search** — Debounced real-time search across all products
 - **Load More** — Pagination support to load additional products
 - **Product Detail Page** — Full product info with image gallery, pricing, discounts, and reviews
 
-### 🛒 Shopping Cart
+###  Shopping Cart
 - **Add to Cart** — One-click add from catalog or product detail page
 - **Quantity Management** — Increment/decrement item quantities inline
 - **Remove Items** — Individual item removal with confirmation toast
@@ -24,38 +24,38 @@ AZI Cosmetics Store is a full-featured online beauty storefront with product bro
 - **Protected Route** — Cart page requires authentication
 - **Persistent Storage** — Cart data saved to `localStorage`
 
-### ❤️ Wishlist
+###  Wishlist
 - **Toggle Items** — Add/remove products from wishlist with heart button
 - **Wishlist Page** — Dedicated page to view all saved items
 - **Quick Add to Cart** — Move items directly from wishlist to cart
 - **Clear Wishlist** — Remove all items at once
 - **Persistent Storage** — Wishlist data saved to `localStorage`
 
-### 🔐 User Authentication
+###  User Authentication
 - **Login / Register** — Email and password-based authentication
 - **Session Persistence** — Auth state saved to `localStorage`
 - **Protected Routes** — Cart and other sensitive pages gated behind login
 - **User Menu** — Display user name and logout button in header
 
-### 🌙 Dark Mode
+###  Dark Mode
 - **Theme Toggle** — Switch between light and dark themes
 - **Persistent Preference** — Theme choice saved to `localStorage`
 - **Full Theming** — All components adapt to the active theme
 
-### ⭐ Product Reviews
+###  Product Reviews
 - **Add Reviews** — Write reviews with a text input
 - **Edit / Delete** — Modify or remove your own reviews
 - **Seeded Demo Reviews** — Realistic cosmetic-themed sample reviews on first visit
 - **Persistent Storage** — Reviews saved to `localStorage`
 
-### 📄 Additional Pages
+###  Additional Pages
 - **Home** — Hero section, feature highlights, CTA for authenticated users
 - **About** — Brand story, offerings, and values
 - **Contact** — Contact form with validation (name, email, message)
 - **Categories** — Browse beauty categories
 - **404 Not Found** — Custom error page
 
-### 🎨 UI/UX Highlights
+###  UI/UX Highlights
 - Responsive design (mobile, tablet, desktop)
 - Smooth hover animations and transitions
 - Toast notifications via `react-hot-toast`
@@ -64,7 +64,7 @@ AZI Cosmetics Store is a full-featured online beauty storefront with product bro
 
 ---
 
-## 🧰 Tech Stack
+##  Tech Stack
 
 | Technology | Purpose |
 |------------|---------|
@@ -79,22 +79,7 @@ AZI Cosmetics Store is a full-featured online beauty storefront with product bro
 
 ---
 
-## 📸 Screenshots
-
-> _(Add your own screenshots by placing images in a `docs/` directory)_
-
-| | |
-|---|---|
-| **Home Page** — Hero section with CTA | **Product Catalog** — Grid with search & filters |
-| *(Add screenshot `docs/screenshot-home.png`)* | *(Add screenshot `docs/screenshot-catalog.png`)* |
-| **Product Detail** — Image gallery, pricing, reviews | **Shopping Cart** — Item list with quantity controls |
-| *(Add screenshot `docs/screenshot-product.png`)* | *(Add screenshot `docs/screenshot-cart.png`)* |
-| **Wishlist** — Saved products | **Login Page** — Authentication form |
-| *(Add screenshot `docs/screenshot-wishlist.png`)* | *(Add screenshot `docs/screenshot-login.png`)* |
-
----
-
-## 📦 Installation
+##  Installation
 
 ### Prerequisites
 
@@ -126,7 +111,7 @@ npm start
 
 ---
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 azi-cosmetics-store/
@@ -180,7 +165,7 @@ azi-cosmetics-store/
 
 ---
 
-## 🔌 API Reference
+##  API Reference
 
 This project uses the [DummyJSON API](https://dummyjson.com/) as its data source:
 
@@ -196,7 +181,7 @@ This project uses the [DummyJSON API](https://dummyjson.com/) as its data source
 
 ---
 
-## 🧪 Running Locally
+##  Running Locally
 
 ```bash
 # Development mode (hot reload)
@@ -211,13 +196,13 @@ npm start
 
 ---
 
-## 📄 License
+##  License
 
 This project is for educational/demonstration purposes.
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -226,5 +211,3 @@ This project is for educational/demonstration purposes.
 5. Open a Pull Request
 
 ---
-
-<p align="center">Made with 💄 by AZI Cosmetics Team</p>

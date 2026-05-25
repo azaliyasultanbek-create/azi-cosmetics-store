@@ -8,7 +8,6 @@ import Loader from "../../app/components/Loader";
 const STORAGE_KEY = "product_reviews";
 const SEEDED_KEY = "product_reviews_seeded";
 
-// Реалистичные отзывы о косметике
 const DEMO_REVIEWS = [
   { id: 1, body: "This foundation gives such a natural finish! It blends effortlessly and doesn't oxidize. My new holy grail.", user: "GlowGetter", date: "2024-12-10T10:00:00Z" },
   { id: 2, body: "The lipstick shade is gorgeous and it stays on for hours without drying my lips. Love the creamy texture!", user: "BeautyBee", date: "2024-12-08T14:30:00Z" },
@@ -49,7 +48,7 @@ export default function ProductDetail() {
   const [editingId, setEditingId] = useState(null);
   const [loadingReviews, setLoadingReviews] = useState(true);
 
-  // Load reviews — first time seed with demo cosmetic reviews, then use localStorage
+
   useEffect(() => {
     const alreadySeeded = localStorage.getItem(SEEDED_KEY);
 
@@ -66,9 +65,7 @@ export default function ProductDetail() {
     }
   }, []);
 
-  // Save to localStorage whenever reviews change
   useEffect(() => {
-    // Don't save while still loading seed data
     if (!loadingReviews) {
       saveStoredReviews(reviews);
     }
@@ -109,7 +106,6 @@ export default function ProductDetail() {
     if (!text.trim()) return;
 
     if (editingId !== null) {
-      // Edit existing
       setReviews((prev) =>
         prev.map((r) =>
           r.id === editingId ? { ...r, body: text } : r
@@ -117,7 +113,6 @@ export default function ProductDetail() {
       );
       setEditingId(null);
     } else {
-      // Add new
       const newReview = {
         id: Date.now(),
         body: text,
@@ -137,7 +132,6 @@ export default function ProductDetail() {
     setEditingId(review.id);
   };
 
-  // UI states
   if (loading) return <Loader text="Loading product..." />;
 
   if (error) {
@@ -169,7 +163,7 @@ export default function ProductDetail() {
       </Link>
 
       <div className="product-detail-layout">
-        {/* ГАЛЕРЕЯ */}
+        {}
         <div className="product-detail-gallery">
           <div className="product-detail-main-image">
             <img
@@ -195,7 +189,7 @@ export default function ProductDetail() {
           )}
         </div>
 
-        {/* ИНФО */}
+        {}
         <div className="product-detail-info">
           <h1>{product.title}</h1>
 
